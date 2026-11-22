@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Build
+build/
+dist/
+target/
+bin/
+obj/
+.next/
+.nuxt/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large artifacts
+*.zip
+*.tar.gz
+*.7z
+*.rar
+*.exe
+*.dll
+*.so
+*.dylib
+*.model
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Secrets
+.env
+.env.*
+!.env.example
+credentials.json
+token.json
+
+transformer_1b_weights/
